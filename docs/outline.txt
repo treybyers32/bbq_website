@@ -1,0 +1,8 @@
+Pages:
+	* Main index
+	* Products page
+	* News
+------------------------------------------
+	* Recipes page
+	* Store locations/directions
+	* About page
