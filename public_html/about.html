@@ -81,15 +81,21 @@
 	<tr>
 	<th style="text-align: center;"><b>Sign up to become a member!</b></th></tr>
 	<tr><td><form style="text-align: center;">
-		E-Mail:<br>
-		<input type="text" name="E-Mail"><br>
-		Username:<br>
-		<input type="text" name="Username"><br>
-		Password:<br>
-		<input type="password" name="Password"><br>
-		<input type="checkbox" name="updates" value="signup" checked>Sign me up to receive updates and newsletter e-mails!<br>
-		<input type="submit" value="Sign up">
-	</form></td></tr></table>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted"><i>We'll never share your email with anyone else!</i></small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleSignup1">
+    <label class="form-signup-label" for="exampleSignup1">Sign me up to receive updates and newsletter e-mails!</label>
+  </div>
+  <button type="submit" class="btn btn-success">Submit</button>
+</form></td></tr></table><br><br>
 
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce and Co</p>
