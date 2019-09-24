@@ -1,0 +1,119 @@
+h1 {
+    background-color: #fff6f2;
+    text-align: center;
+    font-size: 24px;
+    color: #1c1607;
+    border: 3px dashed black;
+    border-radius: 6px;
+    max-width: 200px;
+    }
+
+h2 {
+    background-color: #fff6f2;
+    text-align: center;
+    font-size: 24px;
+    color: #1c1607;
+    border: 3px dotted black;
+    border-radius: 6px;
+    max-width: 200px;
+    }
+    
+h3 {background-color: #fff6f2;
+    text-align: center;
+    border: 1px dotted black;
+    border-radius: 6px;
+    max-width: 100px;
+}
+
+h6 {
+    background-color: #fff6f2;
+    text-align: center;
+    font-size: 18px;
+    color: #1c1607;
+    font-style: italic;
+    font-variant: small-caps;
+    border: 3px outset black;
+    border-radius: 6px;
+    max-width: 400px;
+    }    
+    
+body {
+    background-color: #fff1cf;
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c7a56b;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-variant: small-caps;
+}
+
+nav li a:hover {
+  background-color: #ad905e;
+}
+
+nav li a.active {
+  background-color: #ba8736;
+  color: white;
+}
+
+ol.b {
+    list-style-type: square;
+    background-color: #fff1cf;
+}
+
+ul.a {
+  list-style-type: square;
+}
+
+p.a {
+    text-align: center;
+    font-size: 18px;
+}
+
+#new {
+    font-size: 16px;
+    color: blue;
+}
+
+#instock {
+    color: green;
+}
+
+#notinstock {
+    color: red;
+}
+
+#limited {
+    color: orange;
+}
+
+#stocked {
+    color: green;
+}
+    
