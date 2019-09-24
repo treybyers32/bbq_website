@@ -1,43 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Products | Bagel's BBQ Sauce</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<style>
-	table {
-  border: 1px solid black;
-}
-tr {
-    text-align: center;
-}
-th {
-    text-align: center;
-    background-color: #ba8736;
-    color: white;
-    font-variant: small-caps;
-}
-tr:nth-child(even) {background-color: #fae4af;}
-tr:hover {background-color: #fcf4e1;}
-</style>
-</head>
 
-<body>
-	<header>
-		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
-		<nav><ul>
-			<li><a href="index.html">Home Page</a></li>
-			<li><a href="products.html" class="active">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul></nav>
-	</header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> | Bagel's BBQ</title>
+
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+
+  </head>
+
+  <body>
+
+    <!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bagel's BBQ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Products <span class="sr-only">(current)</span></a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- Main content
+     Put your main content in a div named 'container'.
+     This includes your footer.
+     Otherwise everything will stretch to the edge of the  screen.
+     -->
+    <div class="container">
 <!-- Micaela changed the pictures of the bottles -->	
 	<div style="overflow-x:auto;">
 		<h1>Products</h1>
-		<table>
+		<table class="table table-striped">
 		  <thead>
 		    <tr>
 		      <th>Name</th>
@@ -91,5 +131,9 @@ tr:hover {background-color: #fcf4e1;}
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce and Co</p>
 	</footer>
+	</div>
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>

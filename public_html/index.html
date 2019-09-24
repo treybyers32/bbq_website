@@ -1,45 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Bagel's BBQ Sauce</title>
-	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
-	<style>
-table {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-}
-	</style>
-</head>
 
-<body>
-	<header>
-		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
-		<nav><ul>
-			<li><a href="index.html" class="active">Home Page</a></li>
-			<li><a href="products.html">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About</a></li>
-		</ul></nav>
-	</header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Homepage | Bagel's BBQ</title>
+
+    <!-- This says our CSS is compatible with phones, and phones
+         don't need to scale it strangely. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/sandstone/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+
+  </head>
+
+  <body>
+
+    <!-- For more info about the navbar, see:
+    https://getbootstrap.com/docs/4.0/components/navbar/
+    --->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Bagel's BBQ</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+        
+          <li class="nav-item">
+            <a class="nav-link" href="recipes.html">Recipes</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="locations.html">Locations</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- Main content
+     Put your main content in a div named 'container'.
+     This includes your footer.
+     Otherwise everything will stretch to the edge of the  screen.
+     -->
+    <div class="container">
 	<div>
-		<p class="a"><b>"Here at Bagel's, we're not just passionate about sauce, we live and breath sauce. We <i>are</i> the sauce."</b><br>–<i>Saucy Sauceguy</i></p>
+		<div class="alert alert-success" role="alert">
+	Check out the News page for information regarding our new Texas store!
+    </div>
+    
+    <div class="jumbotron">
+  <h1 class="display-4">Welcome to Bagel's BBQ!</h1>
+  <hr class="my-4">
+  <p><b>"Here at Bagel's, we're not just passionate about sauce, we live and breath sauce. We <i>are</i> the sauce."</b><br>–<i>Saucy Sauceguy</i></p>
+</div>
+		
+	</div>
+  <div>
+
+		<h2>Featured Recipe</h2>
+		<ul>
+		<li style="color: #1a140a;"><a href="recipes.html"><u>Barbecue Beef</u></a></li>
+		</ul>
 	</div>
 	<div>
-		<h2>Featured Recipe</h2>
-		<ol class="b">
-		<li style="color: #1a140a;"><a href="recipes.html"><u>Barbecue Beef</u></a></li>
-		</ol>
-	</div><br><br>
-	<div>
 		<h2>Did You Know?</h2>
-		<ol class="b">
+		<ul>
 		<li>Bagel's is the best barbecue sauce in the galaxy!</li>
 		<li>Bagel's BBQ was created by a group of Simpson College students.</li> 
-		</ol>
+		</ul>
 	<br><br><br></div>
 	<div>
 	<table>
@@ -58,5 +117,9 @@ table {
 	<footer>
 		<p>&#169; Copyright 2019 Bagel's Sauce and Co</p>
 	</footer>
+	</div>
+	    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
