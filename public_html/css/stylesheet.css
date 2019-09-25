@@ -1,38 +1,38 @@
 h1 {
-    background-color: #eb212b;
+    background-color: #edbf61;
     text-align: center;
     font-size: 24px;
     color: #1c1607;
-    border: 3px dashed black;
+    border: 3px dashed white;
     border-radius: 6px;
     max-width: 200px;
     }
 
 h2 {
-    background-color:#eb212b;
+    background-color:#edbf61;
     text-align: center;
     font-size: 24px;
     color: #1c1607;
-    border: 3px dotted black;
+    border: 3px dotted white;
     border-radius: 6px;
     max-width: 200px;
     }
     
-h3 {background-color:#eb212b;
+h3 {background-color:#edbf61;
     text-align: center;
-    border: 1px dotted black;
+    border: 1px dotted white;
     border-radius: 6px;
     max-width: 100px;
 }
 
 h6 {
-    background-color: #eb212b;
+    background-color: #edbf61;
     text-align: center;
     font-size: 18px;
     color: #1c1607;
     font-style: italic;
     font-variant: small-caps;
-    border: 3px outset black;
+    border: 3px outset white;
     border-radius: 6px;
     max-width: 400px;
     }    
@@ -45,13 +45,6 @@ body {
 footer {
     text-align: center;
 }
-
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -66,7 +59,7 @@ nav li {
 
 nav li a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -96,27 +89,6 @@ p.a {
     font-size: 18px;
 }
 
-#new {
-    font-size: 16px;
-    color: blue;
-}
-
-#instock {
-    color: green;
-}
-
-#notinstock {
-    color: red;
-}
-
-#limited {
-    color: orange;
-}
-
-#stocked {
-    color: green;
-}
-
 #loginbutton {
 
 padding: 10px;
@@ -132,5 +104,5 @@ color: #fff2e6;
 }
 
 .bbq {
-width: 200px;
+width: 220px;
 }
