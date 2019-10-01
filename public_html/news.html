@@ -23,14 +23,25 @@
          to get that theme:
          https://www.bootstrapcdn.com/bootswatch/
     -->
+    <style>
+.press {
+  border: 3px solid black;
+  text-align: justify;
+}
 
+.title {
+    text-align: left;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+</style>
   </head>
 
   <body>
 
     <!-- For more info about the navbar, see:
     https://getbootstrap.com/docs/4.0/components/navbar/
-    --->
+    -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Bagel's BBQ</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,35 +84,34 @@
      This includes your footer.
      Otherwise everything will stretch to the edge of the  screen.
      -->
-    <div class="container">
+    <div>
 	<div>
 		<h1>News</h1>
-			<h6><b>New Location in Texas!</b></h6>
-		<article>	
+		<hr>
+			<h6 class="title"><b>New Location in Texas!</b></h6>
 			  <a class="btn btn-light" href="locations.html" role="button"><img src="img/content/newtexasstore.png" alt="Texas!" width="300" height="250" class="img-fluid rounded"></a>
-			<p>We are happy to announce that we have opened a new location serving the Dallas-Fort Worth area in the grand state of Texas! Here we will be able to satisfy the barbeque-loving southerners' taste for great barbeque. We also are working on having a few stores in the Fort Worth Stockyards selling our barbeque as well! Click on the Texas button for other participating stores.</p>
+			<article><p>We are happy to announce that we have opened a new location serving the Dallas-Fort Worth area in the grand state of Texas! Here we will be able to satisfy the barbeque-loving southerners' taste for great barbeque. We also are working on having a few stores in the Fort Worth Stockyards selling our barbeque as well! Click on the Texas button for other participating stores.</p>
 		</article>		
 		
 		<article>
-			<h6><b>Bagel's Dragon's Venom Wins Award for "Most Dangerous BBQ Sauce"</b></h6>
+			<h6 class="title"><b>Bagel's Dragon's Venom Wins Award for "Most Dangerous BBQ Sauce"</b></h6>
 			<img src="img/content/bagels_news_award.png" alt="Award" width="300" height="250" class="img-fluid rounded">
 			<p>The ARA has given Bagel's famous and possibly infamous sauce, Dragon's Venom, the 2019 award for "Most Dangerous BBQ Sauce." The sauce is notorious for to this point having none survive consumption of the sauce. This really should be illegal, but we got an award for it so it must be fine.</p>
 		</article>
 		
 		<article>
-			<h6><b>Boy Becomes First to Survive Consumption of Bagel's Dragon's Venom Sauce</b></h6>
+			<h6 class="title"><b>Boy Becomes First to Survive Consumption of Bagel's Dragon's Venom Sauce</b></h6>
 			<img src="img/content/bagels_news_record.png" alt="Boy Sets Record" width="300" height="250" class="img-fluid rounded">
 			<p>13 year old Brock Bud became the first human to survive after consumption of the notorious Bagel's Dragon's Venom sauce, just after the award was given to the sauce for being the "Most Dangerous BBQ Sauce." Brock surprisingly only lost conciousness for 25 minutes after taking a bite from a chicken leg with the sauce on it. </p>
 		</article>
 		
 		<article>
-			<h6><b>Bagel's First Gift Shop Opens Today!</b></h6>
+			<h6 class="title"><b>Bagel's First Gift Shop Opens Today!</b></h6>
 			<img src="img/content/bagels_news_store.png" alt="First Gift Shop Opens" width="300" height="250" class="img-fluid rounded">
 			<p>Bagel's BBQ Sauce has opened up their first gift shop as of today! The first 20 customers received a complimentary bottle of Honey Mustard Sauce, and the first 5 also received a miniature bottle of Dragon's Venom, probably for souvenier rather than consumption. The store features T-Shirts, stuffed animals, blankets, and of course, the special Bagel's Sauces.</p>
 		</article>
 	</div>
-
-
+<br>
 	<footer>
 	<p>&#169; Copyright 2019 Bagel's Sauce and Co</p>
 	</footer>
