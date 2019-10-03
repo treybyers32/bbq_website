@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<!--Payton is in charge of this document-->
 <html lang="en">
 <head>
 	<meta charset="utf-8">
 	<title>Products | Bagel's BBQ Sauce</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<style>
+	table {
+  border: 1px solid black;
+}
+tr {
+    text-align: center;
+}
+th {
+    text-align: center;
+    background-color: #ba8736;
+    color: white;
+    font-variant: small-caps;
+}
+tr:nth-child(even) {background-color: #fae4af;}
+tr:hover {background-color: #fcf4e1;}
+</style>
 </head>
 
 <body>
 	<header>
-		<img src="img/content/logo.png" alt="The Bagel's logo.">
+		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
 		<nav><ul>
 			<li><a href="index.html">Home Page</a></li>
-			<li><a href="products.html">Products</a></li>
+			<li><a href="products.html" class="active">Products</a></li>
 			<li><a href="recipes.html">Recipes</a></li>
 			<li><a href="news.html">News</a></li>
 			<li><a href="locations.html">Locations</a></li>
 			<li><a href="about.html">About</a></li>
 		</ul></nav>
 	</header>
-	
-	<div>
+<!-- Micaela changed the pictures of the bottles -->	
+	<div style="overflow-x:auto;">
 		<h1>Products</h1>
 		<table>
 		  <thead>
@@ -29,46 +45,51 @@
 		      <th>Description</th>
 		      <th>Spice Rating</th>
 		      <th>Price</th>
+		      <th>In stock?</th>
 		    </tr>
 		  </thead>
 		  <tbody>
 		    <tr>
-		      <td>Original Bagel's</td>
+		      <td><b>Original Bagel's</b></td>
 		      <td><img src="img/content/original_sauce.png" alt="Bagel's original sauce."></td>
 		      <td>This classic Bagel's recipe will surely make your mouth water!</td>
 		      <td>5/10</td>
 		      <td>$2.49</td>
+		      <td id="limited">Limited</td>
 		    </tr>
 
 		    <tr>
-		      <td>Easten BBQ Sauce</td>
+		      <td><b>Easten BBQ Sauce</b></td>
 		      <td><img src="img/content/eastern_bbq_sauce.png" alt="Bagel's eastern barbecue sauce."></td>
 		      <td>A bland and boring blend of sweet peppers and onion, Bagel's Eastern Style BBQ Sauce will make your taste buds fall asleep.</td>
 		      <td>0/10</td>
 		      <td>$1.57</td>
+		      <td id="notinstock">Out of stock</td>
 		    </tr>
 
 		    <tr>
-		      <td>Dragon's Venom</td>
+		      <td><b>Dragon's Venom</b></td>
 		      <td><img src="img/content/dragons_venom.png" alt="Bagel's Dragon's Venom sauce."></td>
 		      <td>Harvested straight from the dragon's mouth, this <i>extremely</i> spicy sauce probably won't kill you.</td>
 		      <td>9578/10</td>
-		      <td>₤3000.00</td>
+		      <td>₤3000.00 <i>($3744.66 USD)</i></td>
+		      <td id="instock">In Stock</td>
 		    </tr>
 
 		    <tr>
-		      <td><i>New</i> Honey Mustard</td>
+		      <td id="new"><b><i>**New**</i> Honey Mustard</b></td>
 		      <td><img src="img/content/honey_mustard.png" alt="Bagel's honey mustard."></td>
 		      <td>It's just mustard with honey.</td>
 		      <td>3/10</td>
 		      <td>$2.49</td>
+		      <td id="stocked">In Stock</td>
 		    </tr>
 		  </tbody>
 		</table>
 	</div>
 
 	<footer>
-	<p>&#169; Copyright 2019 Bagel's Sauce and Co | Website by Payton McBurney and Levi Benes</p>
+	<p>&#169; Copyright 2019 Bagel's Sauce and Co</p>
 	</footer>
 </body>
 </html>
