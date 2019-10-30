@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -11,12 +11,12 @@
 		<img src="img/content/logo.png" alt="Bagel's Logo" class="logo">
 	</header>
 	<nav><ul>
-		<li><a href="index.html">Home Page</a></li>
-		<li><a href="products.html">Products</a></li>
-		<li><a href="recipes.html">Recipes</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="locations.html" class="active">Locations</a></li>
-		<li><a href="about.html">About</a></li>
+		<li><a href="index.php">Home Page</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="recipes.php">Recipes</a></li>
+		<li><a href="news.php">News</a></li>
+		<li><a href="locations.php" class="active">Locations</a></li>
+		<li><a href="about.php">About</a></li>
 	</ul></nav>
 	
 	<h1>Bagel's Gift Shop Locations</h1>
@@ -35,7 +35,7 @@
 	<img src="img/content/fake_stores.png" alt="Participating Stores">
 
 	<footer>
-		<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
+		<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey Byers</p>
 	</footer>
 </body>
 </html>

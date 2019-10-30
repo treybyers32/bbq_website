@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -10,12 +10,12 @@
 	<header>
 		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
 		<nav><ul class="intro">
-			<li class="intro"><a href="index.html">Home Page</a></li>
-			<li class="intro"><a href="products.html">Products</a></li>
-			<li class="intro"><a href="recipes.html" class="active">Recipes</a></li>
-			<li class="intro"><a href="news.html">News</a></li>
-			<li class="intro"><a href="locations.html">Locations</a></li>
-			<li class="intro"><a href="about.html">About</a></li>
+			<li><a href="index.php">Home Page</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="recipes.php">Recipes</a></li>
+		<li><a href="news.php">News</a></li>
+		<li><a href="locations.php" class="active">Locations</a></li>
+		<li><a href="about.php">About</a></li>
 		</ul></nav>
 	</header>
 	
@@ -81,7 +81,7 @@
 	</div>
 	
 	<footer>
-	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
+	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey Byers</p>
 	</footer>
 </body>
 </html>

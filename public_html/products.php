@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE php>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -34,15 +34,15 @@ tr:hover {
 	<header>
 		<img src="img/content/logo.png" alt="The Bagel's logo." class="logo">
 		<nav><ul>
-			<li><a href="index.html">Home Page</a></li>
-			<li><a href="products.html" class="active">Products</a></li>
-			<li><a href="recipes.html">Recipes</a></li>
-			<li><a href="news.html">News</a></li>
-			<li><a href="locations.html">Locations</a></li>
-			<li><a href="about.html">About</a></li>
+			<li><a href="index.php">Home Page</a></li>
+		<li><a href="products.php">Products</a></li>
+		<li><a href="recipes.php">Recipes</a></li>
+		<li><a href="news.php">News</a></li>
+		<li><a href="locations.php" class="active">Locations</a></li>
+		<li><a href="about.php">About</a></li>
 		</ul></nav>
 	</header>
-<!-- Micaela changed the pictures of the bottles -->	
+	
 	<div style="overflow-x:auto;">
 		<h1>Products</h1>
 		<table>
@@ -67,7 +67,7 @@ tr:hover {
 		    </tr>
 
 		    <tr>
-		      <td><b>Easten BBQ Sauce</b></td>
+		      <td><b>Eastern BBQ Sauce</b></td>
 		      <td><img class="bbq" src="img/content/eastern_bbq_sauce.png" alt="Bagel's eastern barbecue sauce."></td>
 		      <td>Perfect mixture of Sweet Peppers and Onion, Bagel's Eastern Style BBQ Sauce will keep your taste buds begging for more.</td>
 		      <td>0/10</td>
@@ -97,7 +97,7 @@ tr:hover {
 	</div>
 
 	<footer>
-	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey, Sara, and Micaela</p>
+	<p>&#169; Copyright 2019 Bagel's Sauce and Co.| Website by Trey Byers</p>
 	</footer>
 </body>
 </html>
